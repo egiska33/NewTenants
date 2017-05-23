@@ -18,8 +18,8 @@ class DatabaseSeeder extends Seeder
         $this->call(TenantTableSeeder::class);
         $this->call(HouseTableSeeder::class);
         $this->call(DocumentTableSeeder::class);
-//        $this->call(MessageTableSeeder::class);
-//        $this->call(TaskTableSeeder::class);
+        $this->call(MessageTableSeeder::class);
+        $this->call(TaskTableSeeder::class);
 
     }
 }
